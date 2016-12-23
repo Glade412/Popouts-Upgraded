@@ -1,4 +1,4 @@
-//META{"name":"Popouts_Upgraded","description":"Adds a growing backdrop to popouts and stylized User Popouts.","author":"maple","version":"1.22"}*//{}
+//META{"name":"Popouts_Upgraded","description":"Adds a growing backdrop to popouts and stylized User Popouts.","author":"maple","version":"1.23"}*//{}
 
 /* User popout */
 
@@ -262,6 +262,9 @@
 }
 .popout {
     background: transparent;
+}
+.search-popout .results-group {
+    background: #fbfbfb;
 }
 .popout:not(.popout-top),
 #pubs-container,
