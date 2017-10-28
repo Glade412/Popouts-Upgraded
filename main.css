@@ -30,31 +30,3 @@
 [class*=modal] .guilds {counter-reset: servercount;}
 [class*=modal] .guild:before {counter-increment: servercount;content:counter(servercount);width:20px;min-width:20px;padding:0 2px 0 4px;margin:-10px 6px -10px -20px;font-size:12px;line-height:50px;border-right:1px solid rgba(100,100,100,.2);}
 [class*=modal] .guild:hover:before {background:linear-gradient(to right,rgba(190,190,190,.09) 23px,rgba(190,190,190,.02) 26px);}
-
-/* Popout Things */
-
-.search-popout .results-group {
-    background: #fbfbfb;
-}
-[class*=userPopout],
-#pubs-container,
-#voice-connection-popout,
-.incoming-call {
-    outline: 90vw solid rgba(8,8,8,.33);
-    outline-offset: -1px;
-    animation: backdrop 160ms ease-in;
-    overflow:visible;
-}
-@keyframes backdrop {
-    0% {outline: 0vh solid rgba(8,8,8,0);}
-    55% {outline-color:rgba(8,8,8,.05);}
-    100% {outline: 90vw solid rgba(8,8,8,.35);}
-}
-.popout {
-    contain:none;
-}
-/* backdrop opacity */
-
-.callout-backdrop {
-    opacity: .6 !important;
-}
