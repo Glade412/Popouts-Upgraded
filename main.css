@@ -13,7 +13,7 @@
 [class*=userPopout] [class*=headerText] div[class*=header] {background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 15%,85%,rgba(0,0,0,0) 100%);width: 200px;max-width: 200px;padding:0;order:2;opacity:1;transition: opacity 200ms ease-in;transition-delay: 170ms;min-height:19px;pointer-events:auto}
 [class*=userPopout] .username-wrapper .nickname {margin-bottom:4px;}
 [class*=userPopout] [class*=headerText] [class*=ctivity] {height:auto;max-height:40px;overflow:hidden;}
-[class*=userPopout] [class*=tatus] {bottom:-4px;width:238px;height:8px;left:0;box-shadow: inset 0 0 0 1.8px rgba(255,255,255,.2);border-radius:0;pointer-events:none;}
+[class*=userPopout] [class*=tatus] {border:none;bottom:-4px;width:242px;height:12px;left:0;box-shadow: inset 0 0 0 3px rgba(255,255,255,.2);border-radius:0;pointer-events:none;}
 [class*=userPopout] [class*=header]:hover [class*=avatarWrapperNormal] [class*=tatus]{-webkit-filter: contrast(105%);transition: -webkit-filter 480ms ease-out;}
 [class*=userPopout] [class*=header] [class*=headerText] [class*=ctivity],.user-popout .header:not(:hover) .creation-date-wrapper {opacity: 0;transition: opacity 200ms,margin-bottom 270ms ease-out;}
 [class*=userPopout] .header .creation-date-wrapper {padding:3px 0;margin-bottom:145px;order:1;transition:margin-bottom 170ms ease-in-out;min-height:unset;}
