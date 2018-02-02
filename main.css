@@ -27,8 +27,8 @@
 [class*=userPopout]>[class*=body-] {padding:14px 10px 10px;}
 [class*=userPopout]>[class*=body-] [class*=Divider-] {margin:10px 0 8px;}
 [class*=userPopout] svg[name=Gamepad] ~ [class*=headerText] {display:inline-block;height:unset;width:unset;position:relative;top:unset;margin-top:2px;}
-[class*=userPopout] [class*=headerPlaying],[class*=userPopout] [class*=headerStreaming]{background:#202225;}
-[class*=userPopout] [class*=headerPlaying]>[class*=activity],[class*=userPopout] [class*=headerStreaming]>[class*=activity]{margin-top:220px;}
+[class*=userPopout]>[class*=header],[class*=modal] [class*=topSectionNormal]{background:#202225;}
+[class*=userPopout]>[class*=header]:not([class*=ormal]){padding-top:220px;}
 
 [class*=modal] [class*=scroller-] {counter-reset: servercount;}
 [class*=modal] [class*=listRow-]:before {counter-increment: servercount;content:counter(servercount);width:20px;min-width:20px;padding:0 2px 0 4px;margin:-10px 6px -10px -20px;font-size:12px;line-height:50px;border-right:1px solid rgba(100,100,100,.2);}
