@@ -21,8 +21,8 @@
 [class*=userPopout] a[class*=Live]:hover {background:transparent;}
 [class*=userPopout] a[class*=Live] [class*=con] {position:absolute;z-index:-1;width:200px;height:100%;border-radius:0;background:linear-gradient(to right,transparent,#f04747 15%,#f04747 85%,transparent);animation:l-p 1s ease-in-out infinite alternate}
 @keyframes l-p {0%,20%{opacity:.6} 0%,10%,30% {opacity:1}}
-[class*=userPopout] .member-roles {max-height: 90px;overflow-y: scroll;}
-[class*=userPopout] .member-roles::-webkit-scrollbar {width:0;}
+[class*=userPopout] [class*=body-]>ul {max-height: 90px;overflow-y: scroll;}
+[class*=userPopout] [class*=body-]>ul::-webkit-scrollbar {width:0;}
 [class*=userPopout] svg[name=Gamepad] {margin-top:2px;}
 [class*=userPopout]>[class*=body-] {padding:14px 10px 10px;}
 [class*=userPopout]>[class*=body-] [class*=Divider-] {margin:10px 0 8px;}
